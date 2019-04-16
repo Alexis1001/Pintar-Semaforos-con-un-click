@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane id="AnchorPane" prefHeight="530.0" prefWidth="193.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="semaphore.FXMLDocumentController">
+    <children>
+      <VBox layoutX="38.0" layoutY="129.0" prefHeight="457.0" prefWidth="201.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Circle fx:id="circle1" onMouseClicked="#greenLight" radius="  100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="circle2" onMouseClicked="#yellowLight" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="circle3" onMouseClicked="#redLight" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
